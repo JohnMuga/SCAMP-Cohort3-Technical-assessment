@@ -1,13 +1,13 @@
-# Python Technical Assessment  
-
-- Create a repository on Github called ``SCAMP Assesment`
-
-- Using Python, write out a function to output the fibbonacci sequence of a given number
-
-## Submission: 
-
-- Push your solution to github repo created 
-
-- submit the URL on the application form here: https://bit.ly/SCA-mentee-C3
-
-*Good luck!*
+def fibonacci(n):
+a = 0
+b = 1
+if n < 0:
+print("Incorrect input")
+elif n==1:
+return b
+else: for i in range(2,n):
+c = a + b
+a = b
+b = c
+return b
+print(fibonacci(20)
